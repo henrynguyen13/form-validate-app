@@ -37,9 +37,7 @@
             android:hint="Last Name" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <!-- Tiếp theo bạn có thể thêm phần birthday, address và email theo cùng nguyên tắc -->
 
-    <!-- Ví dụ cho phần Birthday -->
 
     <TextView
         android:id="@+id/textView3"
@@ -89,7 +87,6 @@
             android:hint="Birthday" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <!-- Ví dụ cho phần Address -->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/addressLayout"
         android:layout_width="0dp"
@@ -106,7 +103,6 @@
             android:hint="Address" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <!-- Ví dụ cho phần Email -->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/emailLayout"
         android:layout_width="0dp"
@@ -123,7 +119,6 @@
             android:hint="Email" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <!-- Cuối cùng, bạn có thể thêm CheckBox và Button -->
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
